@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/joan/Escritorio/cnc_laser/ok/cad/driver_laser/driver_laser.sch</source>
+    <date>jue 26 oct 2017 06:21:05 CEST</date>
+    <tool>Eeschema no-vcs-found-1929727~60~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Diver Led Laser</title>
+        <company>Radioelf</company>
+        <rev>0.0.1</rev>
+        <date>2017-10-25</date>
+        <source>driver_laser.sch</source>
+        <comment number="1" value="Led laser power HIGH Jp1, Jp2, Jp3 3-2"/>
+        <comment number="2" value="Led laser power LOW  Jp1, Jp2, Jp3 1-2"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM358</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2904-n.pdf</datasheet>
+      <libsource lib="linear" part="LM358"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F0229E</tstamp>
+    </comp>
+    <comp ref="LD1">
+      <value>Laserdiode</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x01_Pitch2.00mm</footprint>
+      <libsource lib="device" part="Laserdiode_1A3C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F025B2</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>5k</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3266W</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F029F8</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F02AB0</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F02AFB</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4007</value>
+      <footprint>Diodes_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F02C88</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>POWER </value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="device" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F02D42</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Mosfet N</value>
+      <footprint>TO_SOT_Packages_THT:TO-220-3_Vertical</footprint>
+      <libsource lib="device" part="Q_NMOS_DGS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F02E4B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F02FB4</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>220nF</value>
+      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F0304C</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>5k</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3266W</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F030DC</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>6k8</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F0312A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM35-LP</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Rugged_Reverse</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm35.pdf</datasheet>
+      <libsource lib="sensors" part="LM35-LP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F0335A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Power 12V</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_4UCON_19963_02x3.5mm_Straight</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F05EB1</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>PWM</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_4UCON_19963_02x3.5mm_Straight</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F06DD3</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>POWER </value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="device" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F07479</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>5K</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3266W</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F07521</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>56k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F07910</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_Schottky</value>
+      <footprint>Diodes_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F093E8</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1R 3W</value>
+      <footprint>Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F0A620</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K5</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F0B64A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F0CD4A</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>POWER </value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="device" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F0E9A1</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>2R 1W</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F0EC09</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F1C1E2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F1D899</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Temp.</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_4UCON_19963_02x3.5mm_Straight</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F1DF23</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>4v7</value>
+      <footprint>Diodes_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>https://en.wikipedia.org/wiki/Zener_diode</datasheet>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F2130F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F218C7</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>4v7</value>
+      <footprint>Diodes_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <datasheet>https://en.wikipedia.org/wiki/Zener_diode</datasheet>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F2194B</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F25D6C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Zener">
+      <description>Zener Diode</description>
+      <docs>https://en.wikipedia.org/wiki/Zener_diode</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NC_Dual">
+      <description>Dual Jumper, normally closed</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Dual</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM2904">
+      <aliases>
+        <alias>LM358</alias>
+        <alias>AD8620</alias>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>TL062</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>SA5532</alias>
+        <alias>RC4558</alias>
+        <alias>RC4560</alias>
+        <alias>RC4580</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TSV912IDT</alias>
+        <alias>TSV912IST</alias>
+        <alias>TLC272</alias>
+        <alias>TLC277</alias>
+        <alias>MCP602</alias>
+        <alias>OPA2134</alias>
+        <alias>OPA2340</alias>
+        <alias>OPA2376xxD</alias>
+        <alias>OPA2376xxDGK</alias>
+        <alias>MC33078</alias>
+        <alias>MC33178</alias>
+        <alias>LM4562</alias>
+        <alias>OP249</alias>
+        <alias>OP275</alias>
+        <alias>ADA4075-2</alias>
+        <alias>MCP6002-xP</alias>
+        <alias>MCP6002-xSN</alias>
+        <alias>MCP6002-xMS</alias>
+        <alias>LM7332</alias>
+        <alias>OPA2333xxD</alias>
+        <alias>OPA2333xxDGK</alias>
+        <alias>LMC6482</alias>
+        <alias>LT1492</alias>
+        <alias>LTC6081xMS8</alias>
+        <alias>LM6172</alias>
+        <alias>MCP6L92</alias>
+        <alias>NJM2043</alias>
+        <alias>NJM2114</alias>
+        <alias>NJM4556A</alias>
+        <alias>NJM4558</alias>
+        <alias>NJM4559</alias>
+        <alias>NJM4560</alias>
+        <alias>NJM4580</alias>
+        <alias>NJM5532</alias>
+        <alias>ADA4807-2ARM</alias>
+        <alias>OPA2691</alias>
+        <alias>LT6233</alias>
+      </aliases>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm358.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*Pitch0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*Pitch0.65mm*</fp>
+        <fp>MSOP*3x3mm*Pitch0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*Pitch0.635mm*</fp>
+        <fp>LFCSP*2x2mm*Pitch0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*Pitch1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="sensors" part="LM35-LP">
+      <description>Precision centigrade temperature sensor, TO-92 package</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm35.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM35-LP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+VS" type="power_in"/>
+        <pin num="2" name="Vout" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Laserdiode_1A3C">
+      <description>Laser Diode in a 2-pin package</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*LaserDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LD</field>
+        <field name="Value">Laserdiode_1A3C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentiometer</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_DGS">
+      <description>Transistor N-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_DGS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*Terminal*Block*:*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="linear">
+      <uri>/usr/share/kicad/library/linear.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="sensors">
+      <uri>/usr/share/kicad/library/sensors.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C1-Pad1)">
+      <node ref="JP2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="2" name="Net-(C3-Pad2)">
+      <node ref="LD1" pin="3"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(JP3-Pad3)">
+      <node ref="JP3" pin="3"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="4" name="VCC">
+      <node ref="LD1" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="JP1" pin="3"/>
+      <node ref="U1" pin="8"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="5" name="Net-(Q1-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(R6-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="7" name="Net-(JP3-Pad2)">
+      <node ref="JP3" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="J2" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="RV3" pin="1"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R8" pin="2"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D3-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="10" name="/EN">
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="11" name="/Out">
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="12" name="Net-(JP3-Pad1)">
+      <node ref="JP3" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="14" name="Net-(RV3-Pad2)">
+      <node ref="RV3" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="15" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="RV3" pin="3"/>
+    </net>
+    <net code="16" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad1)">
+      <node ref="J3" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="20" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="21" name="Net-(JP2-Pad1)">
+      <node ref="RV2" pin="2"/>
+      <node ref="JP2" pin="1"/>
+    </net>
+    <net code="22" name="Net-(JP2-Pad3)">
+      <node ref="JP2" pin="3"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="23" name="Net-(R1-Pad1)">
+      <node ref="RV1" pin="3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="RV2" pin="1"/>
+    </net>
+    <net code="25" name="/Int">
+      <node ref="JP1" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="26" name="Net-(J1-Pad2)">
+      <node ref="JP1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+  </nets>
+</export>
